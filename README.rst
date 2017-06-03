@@ -1,6 +1,7 @@
 Eat All Over The World
 ====================================
-
+.. image:: https://travis-ci.org/keepeat/eatoverworld.svg?branch=master
+    :target: https://travis-ci.org/keepeat/eatoverworld
 
 ` Let's eat all over the world ! `
  
