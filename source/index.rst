@@ -16,12 +16,15 @@
 
 
 
+
 .. toctree::
    :maxdepth: 2
    :glob:
    :caption: Contents:
 
+
    shanghai/*
+   how_to_contribute
 
 
 
