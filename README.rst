@@ -5,7 +5,7 @@ Eat All Over The World
 
 **Let's eat all over the world !**
  
-
+`Welcome to our github page ! <https://keepeat.github.io/eatoverworld/>`_
 
 
 
@@ -39,6 +39,7 @@ How to contribute ?
 
 We use `reStructuredText<http://www.sphinx-doc.org/en/stable/rest.html#rst-primer>`_ to build our site. 
 More info please refer to :doc:`source/how_to_contribute` 。
+
 
 
 
