@@ -19,6 +19,11 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
+import sys, os
+
+sys.path.append(os.path.abspath('exts'))
+
+
 
 
 # -- General configuration ------------------------------------------------
@@ -84,11 +89,33 @@ todo_include_todos = False
 #
 html_theme = 'alabaster'
 
+
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
 # html_theme_options = {}
+
+html_theme_options = {
+    'logo': 'eat_man.png',
+    'logo_name':"Let's Eat",
+    'description': u"吾日三省吾身，早上吃什么，中午吃什么，晚上吃什么?",
+    "github_user":"keepeat",
+    "github_repo":"eatoverworld",
+    "github_type":"follow",
+    "github_count":True
+
+}
+
+html_sidebars = {
+    '**': [
+        'about.html',
+        'navigation.html',
+        'searchbox.html'
+    ]
+}
+
+
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
