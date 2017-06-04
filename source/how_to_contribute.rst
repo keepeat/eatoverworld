@@ -13,7 +13,7 @@ Okay, Let's Begin.
 
 Slack
 --------------
-`Slack<https://keepeat.slack.com>`_
+`Slack <https://keepeat.slack.com>`_
 
 
 
