@@ -23,8 +23,8 @@
    :caption: Contents:
 
 
-   shanghai/*
    how_to_contribute
+   example_poi
 
 
 
