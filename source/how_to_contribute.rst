@@ -8,15 +8,14 @@
 现在，我们需要做的:
 **生产优质内容**
 
-Okay, Let's Begin.
-
-
-
 
 
 Slack
 --------------
-申请加入Slack: `Slack <https://keepeat.slack.com>`_
+申请加入Slack: `Slack <https://keepeat.slack.com>`_ 
+发送邮件至 wenter.wu@daocloud.io . 
+
+
 
 
 项目结构:
@@ -28,7 +27,7 @@ Github 地址 `eatoverworld <https://github.com/keepeat/eatoverworld>`_
 
 
 
-什么是美食 POI ?
+什么是美食点 POI ?
 -------------------
 
 `POI <https://zh.wikipedia.org/wiki/%E8%88%88%E8%B6%A3%E9%BB%9E>`_ 描述了我们的美食点的各种信息。 
@@ -53,15 +52,25 @@ rest 具有良好的拓展性并且方便写作。
 
 
 
-
 .. toctree::
 	:maxdepth: 2
 	
 	example_poi
 
 
+How to mirror site?
+-------------------------
+项目根目录有 Dockerfile, 你可以自己构建镜像。 构建出来是个 Nginx 静态页面。
 
 
+
+TODO 
+---------
+
+
+- POI 卡片样式更改
+- 内容增加
+- 国际化语言
 
 
 
