@@ -9,6 +9,7 @@ POI 示例
             :address: 1455 Doris Bypass North Andrew, WI 76333
             :link: http://conway-cohen.info/
             :scene: dating, party, small talk,having fun
+            :recommend: rice, meat
 
             This is an example restaurant poi comment .
 
@@ -20,6 +21,7 @@ POI 示例
 	:address: 1455 Doris Bypass North Andrew, WI 76333
 	:link: http://conway-cohen.info/
 	:scene: dating, party, small talk,having fun
+	:recommend: rice, meat
 
 	This is an example restaurant poi comment, you can write your comment here.
 
