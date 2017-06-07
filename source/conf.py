@@ -21,9 +21,7 @@
 # sys.path.insert(0, os.path.abspath('.'))
 import sys, os
 
-
-
-
+sys.path.append(os.path.abspath('exts'))
 
 # -- General configuration ------------------------------------------------
 
@@ -34,7 +32,8 @@ import sys, os
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx.ext.githubpages']
+
+extensions = ['sphinx.ext.githubpages', 'poi']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -77,17 +76,12 @@ exclude_patterns = []
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
 
-# If true, `todo` and `todoList` produce output, else they produce nothing.
-todo_include_todos = False
-
-
 # -- Options for HTML output ----------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
 html_theme = 'alabaster'
-
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -97,12 +91,12 @@ html_theme = 'alabaster'
 
 html_theme_options = {
     'logo': 'eat_man.png',
-    'logo_name':"Let's Eat",
+    'logo_name': "Let's Eat !",
     'description': u"吾日三省吾身，早上吃什么，中午吃什么，晚上吃什么?",
-    "github_user":"keepeat",
-    "github_repo":"eatoverworld",
-    "github_type":"follow",
-    "github_count":True
+    "github_user": "keepeat",
+    "github_repo": "eatoverworld",
+    "github_type": "follow",
+    "github_count": True
 
 }
 
@@ -114,19 +108,15 @@ html_sidebars = {
     ]
 }
 
-
-
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'eatdoc'
-
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -156,7 +146,6 @@ latex_documents = [
      u'Taoge', 'manual'),
 ]
 
-
 # -- Options for manual page output ---------------------------------------
 
 # One entry per manual page. List of tuples
@@ -165,7 +154,6 @@ man_pages = [
     (master_doc, 'eat', u'eat Documentation',
      [author], 1)
 ]
-
 
 # -- Options for Texinfo output -------------------------------------------
 
@@ -177,6 +165,3 @@ texinfo_documents = [
      author, 'eat', 'One line description of project.',
      'Miscellaneous'),
 ]
-
-
-
