@@ -11,10 +11,20 @@
 Okay, Let's Begin.
 
 
+
+
+
 Slack
 --------------
-`Slack <https://keepeat.slack.com>`_
+申请加入Slack: `Slack <https://keepeat.slack.com>`_
 
+
+项目结构:
+-----------------
+Github 地址 `eatoverworld <https://github.com/keepeat/eatoverworld>`_
+
+`source` 文件夹 里包含了所有美食目录。 层级结构按  `城市 - 街区` 分类。
+每一家店是一个 POI， 呈卡片形式。
 
 
 
@@ -26,12 +36,10 @@ POI 编写得好不好，对广大人民群众能否找到美食至关重要。
 所以，我们的 POI 必须包含以下信息:
 	
 	- 店铺名
-	- 地址 (经纬度，街道，城市等等)
+	- 地址 (街道地址)
 	- 场景 (和基友去喝酒下馆子， 和女友去约会， 和闺蜜去拍照， 多年未见的同学， 加班餐， 单人餐，早点， 夜宵，下午茶 )
-	- 价格 (大锤 80, 小锤 40 )
-	- 味道 (辣与不辣都有哦)
-	- 菜系 (川菜， 江浙菜)
-	- 图片 (有图有真相)
+	- 推荐菜 (你点过的那些菜让你至今难忘)
+	- 点评地址 (详情页面)
 
 
 当然，这些信息只是初步的，我们后面会视情况而增加。
@@ -41,12 +49,15 @@ POI 编写得好不好，对广大人民群众能否找到美食至关重要。
 -----------------
 
 我们使用 `reStructuredText <http://www.sphinx-doc.org/en/stable/rest.html#rst-primer>`_  编写 POI 。
-rest 具有良好的拓展性并且方便写作。这是示例 :doc:`example_poi` 。
+rest 具有良好的拓展性并且方便写作。
 
 
 
 
-
+.. toctree::
+	:maxdepth: 2
+	
+	example_poi
 
 
 

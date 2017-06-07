@@ -26,7 +26,7 @@
     <script type="text/javascript" src="_static/doctools.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="POI 示例" href="example_poi.html" />
+    <link rel="next" title="美食 POI 编写样例" href="example_poi.html" />
     <link rel="prev" title="五角场美食" href="shanghai/wujiaochang.html" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
 
@@ -48,7 +48,13 @@
 <p>Okay, Let’s Begin.</p>
 <div class="section" id="slack">
 <h2>Slack<a class="headerlink" href="#slack" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://keepeat.slack.com">Slack</a></p>
+<p>申请加入Slack: <a class="reference external" href="https://keepeat.slack.com">Slack</a></p>
+</div>
+<div class="section" id="id3">
+<h2>项目结构:<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<p>Github 地址 <a class="reference external" href="https://github.com/keepeat/eatoverworld">eatoverworld</a></p>
+<p><cite>source</cite> 文件夹 里包含了所有美食目录。 层级结构按  <cite>城市 - 街区</cite> 分类。
+每一家店是一个 POI， 呈卡片形式。</p>
 </div>
 <div class="section" id="poi">
 <h2>什么是美食 POI ?<a class="headerlink" href="#poi" title="Permalink to this headline">¶</a></h2>
@@ -58,20 +64,23 @@ POI 编写得好不好，对广大人民群众能否找到美食至关重要。
 <blockquote>
 <div><ul class="simple">
 <li>店铺名</li>
-<li>地址 (经纬度，街道，城市等等)</li>
+<li>地址 (街道地址)</li>
 <li>场景 (和基友去喝酒下馆子， 和女友去约会， 和闺蜜去拍照， 多年未见的同学， 加班餐， 单人餐，早点， 夜宵，下午茶 )</li>
-<li>价格 (大锤 80, 小锤 40 )</li>
-<li>味道 (辣与不辣都有哦)</li>
-<li>菜系 (川菜， 江浙菜)</li>
-<li>图片 (有图有真相)</li>
+<li>推荐菜 (你点过的那些菜让你至今难忘)</li>
+<li>点评地址 (详情页面)</li>
 </ul>
 </div></blockquote>
 <p>当然，这些信息只是初步的，我们后面会视情况而增加。</p>
 </div>
-<div class="section" id="id4">
-<h2>怎么编写 POI ?<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id5">
+<h2>怎么编写 POI ?<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
 <p>我们使用 <a class="reference external" href="http://www.sphinx-doc.org/en/stable/rest.html#rst-primer">reStructuredText</a>  编写 POI 。
-rest 具有良好的拓展性并且方便写作。这是示例 <a class="reference internal" href="example_poi.html"><span class="doc">POI 示例</span></a> 。</p>
+rest 具有良好的拓展性并且方便写作。</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="example_poi.html">美食 POI 编写样例</a></li>
+</ul>
+</div>
 </div>
 </div>
 
@@ -110,11 +119,11 @@ rest 具有良好的拓展性并且方便写作。这是示例 <a class="referen
 <li class="toctree-l1"><a class="reference internal" href="shanghai/wujiaochang.html">五角场美食</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">加入我们</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#slack">Slack</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">项目结构:</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#poi">什么是美食 POI ?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id4">怎么编写 POI ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id5">怎么编写 POI ?</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="example_poi.html">POI 示例</a></li>
 </ul>
 
 
