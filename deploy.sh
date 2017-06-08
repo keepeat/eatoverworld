@@ -30,7 +30,7 @@ doCompile
 git clone $REPO out && cd out
 git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
 ls  -l | awk '{print $9}' | xargs rm -rf
-cp -r ../build/html/* ./
+cp -rf ../build/html/* ./
 
 # Now let's go have some fun with the cloned repo
 git config user.name "Travis CI"
