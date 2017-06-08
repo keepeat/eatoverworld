@@ -96,7 +96,8 @@ html_theme_options = {
     "github_user": "keepeat",
     "github_repo": "eatoverworld",
     "github_type": "follow",
-    "github_count": True
+    "github_count": True,
+    "font_family":None
 
 }
 
