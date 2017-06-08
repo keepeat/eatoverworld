@@ -29,9 +29,10 @@ SHA=`git rev-parse --verify HEAD`
 
 git clone $REPO out && cd out
 doCompile
-mv build /
+rm -rf /tmp/build
+mv build /tmp/
 git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
-cp -rf /build/html/ ./
+cp -rf /tmp/build/html/ ./
 
 # Now let's go have some fun with the cloned repo
 git config user.name "Travis CI"
