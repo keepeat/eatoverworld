@@ -31,18 +31,20 @@ git clone $REPO out && cd out
 doCompile
 rm -rf /tmp/build
 mv build /tmp/
+ls /tmp/build/html
 git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
 cp -rf /tmp/build/html/ ./
+ls ./
 
 # Now let's go have some fun with the cloned repo
 git config user.name "Travis CI"
 git config user.email "you@example.com"
 
 # If there are no changes to the compiled out (e.g. this is a README update) then just bail.
-if git diff --quiet; then
-    echo "No changes to the output on this push; exiting."
-    exit 0
-fi
+#if git diff --quiet; then
+#    echo "No changes to the output on this push; exiting."
+#    exit 0
+#fi
 
 # Commit the "changes", i.e. the new version.
 # The delta will show diffs between new and old versions.
