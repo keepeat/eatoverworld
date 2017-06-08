@@ -25,12 +25,13 @@ SHA=`git rev-parse --verify HEAD`
 # Create a new empty branch if gh-pages doesn't exist yet (should only happen on first deply)
 
 # Run our compile script
-doCompile
+#doCompile
 
 git clone $REPO out && cd out
+doCompile
+mv build /
 git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
-ls  -l | awk '{print $9}' | xargs rm -rf
-cp -rf ../build/html/* ./
+cp -rf /build/html/ ./
 
 # Now let's go have some fun with the cloned repo
 git config user.name "Travis CI"
