@@ -9,7 +9,7 @@
             :address: 1455 Doris Bypass North Andrew, WI 76333
             :link: http://conway-cohen.info/
             :scene: dating, party, small talk,having fun
-            :recommend: rice, meat
+            :recommend: rice, meat, peer
 
             This is an example restaurant poi comment .
 
