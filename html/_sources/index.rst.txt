@@ -23,10 +23,8 @@
    :caption: Contents:
 
    shanghai/*
+   diary/*
    how_to_contribute
-
-
-
 
 
 
