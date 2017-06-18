@@ -33,8 +33,7 @@ rm -rf /tmp/build
 mv build /tmp/
 ls /tmp/build/html
 git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
-rm -rf *html
-cp -rf /tmp/build/html/ ./
+cp -rf /tmp/build/html/* .
 ls ./
 
 # Now let's go have some fun with the cloned repo
