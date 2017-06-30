@@ -4,7 +4,7 @@
 
 .. poi::
 	:name: 喜来稀肉(国定路店)
-	:address: 国定路506号8幢101室(大学路国定路北100米)
+	:address: 国定路506号8幢101室
 	:link: http://www.dianping.com/shop/23972720
 	:scene: 和朋友一起大吃一顿,公司团建,韩国味道
 	:recommend: 护心肉, 章鱼烧
