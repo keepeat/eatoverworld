@@ -1,2 +1,6 @@
 language: python
+python:
+  - 3.5
+env:
+  - GD_KEY=5104cc1aa6c7ccc0089982903c39f939
 script: ./deploy.sh

@@ -1,0 +1,28 @@
+<div class="row">
+  <div class="col s12 m12">
+    <div class="card horizontal">
+      <div class="card-image">
+        <!-- <iframe src="//m.amap.com/navi/?dest=116.470098,39.992838&destName=阜通西&hideRouteIcon=1&key=5104cc1aa6c7ccc0089982903c39f939" frameborder="0" height="100%"></iframe> -->
+        <iframe src="//m.amap.com/navi/?dest={gd_dest}&destName={gd_dest_name}&hideRouteIcon=1&key={gd_key}" frameborder="0" height="100%"></iframe>
+      </div>
+      <div class="card-stacked">
+        <div class="card-content black-text">
+          <p>{comment}</p>
+          <div>
+            <span>场景: </span>
+            {scene_list}
+          </div>
+          <div>
+            <span>推荐菜: </span>
+            {recommend_list}
+          </div>
+          <p>地址: <i> {address}</i> </p>
+        </div>
+        <span class="card-title">{title}</span>
+        <div class="card-action">
+          <a href="{link}">Details</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
