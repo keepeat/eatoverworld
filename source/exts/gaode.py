@@ -1,3 +1,4 @@
+# -*-encoding:utf-8 -*-
 import requests
 # 从高德地图网页挖出来的API
 GD_API = 'https://restapi.amap.com/v3/place/text?s=rsv3&key=8325164e247e15eea68b59e89200988b&keywords='

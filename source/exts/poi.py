@@ -43,7 +43,7 @@ class POIDirective(Directive):
         poi_card.comment = " ".join(content)
         poi_card.gd_dest_name = name
         poi_card.gd_dest = ''
-        gd_key = os.getenv('GD_KEY')
+        gd_key = os.getenv('GD_KEY',"5104cc1aa6c7ccc0089982903c39f939")
         if gd_key is None:
             raise RuntimeError("GD_KEY required")
         poi_card.gd_key = gd_key
