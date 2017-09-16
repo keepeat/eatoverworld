@@ -26,7 +26,21 @@ Please make sure you have `python` and `virtualenv` installed on your PC or Mac
 	>> ./auto_build.sh &
 	>> open build/html/index.html
 
+RoadMap
+--------------------------
 
+- A simple static poi page for sharing
+- A poi search engine
+- A poi recommandation system
+
+
+TODO 
+--------------------
+
+- Search Engine Page
+- Dianping crawler
+- Recommandation Service 
+- User Social
 
 
 
