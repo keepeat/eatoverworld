@@ -1,10 +1,13 @@
-FROM ubuntu:14.04
+FROM ubuntu:16.04
 
 MAINTAINER Taoge <wenter.wu@daocloud.io>
 
 RUN apt-get update \
+	&& apt-get -y upgrade \
     && apt-get install -y software-properties-common \
-    && apt-get install -y python-pip \
+    && apt-get install -y python3-pip \
+    && apt-get install build-essential libssl-dev libffi-dev python-dev \
+    && apt-get install -y python3-venv
     && pip install pip --upgrade \
     && apt-add-repository -y ppa:nginx/stable \
     && apt-get update \
@@ -12,11 +15,14 @@ RUN apt-get update \
 
 
 
+RUN python3 -m venv venv
+RUN source venv/bin/activate
+
 RUN mkdir -p /usr/src/app
 
 COPY ./requirements.txt /usr/src/app/
 
-RUN pip install  -r /usr/src/app/requirements.txt
+RUN pip3 install  -r /usr/src/app/requirements.txt
 
 COPY . /usr/src/app
 
