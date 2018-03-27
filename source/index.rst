@@ -9,7 +9,7 @@
 	腹中有乾坤, 舌尖万物吻。
 
 
-
+This repo is Deprecated, Please contribute to:  https://docs.google.com/spreadsheets/d/1sP0aUnPW6W9ODIuUUSl6ISnkpQAI0ekxvF1C6yFxotE/edit?usp=sharing
 
 
 
