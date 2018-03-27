@@ -8,7 +8,8 @@ Eat All Over The World
 `Welcome to our github page ! <https://keepeat.github.io/eatoverworld/>`_
 
 
-
+**Deprecated** 
+`Visit Our New Google Sheet <https://docs.google.com/spreadsheets/d/1sP0aUnPW6W9ODIuUUSl6ISnkpQAI0ekxvF1C6yFxotE/edit?usp=sharing>`_
 
 
 
